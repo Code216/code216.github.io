@@ -49,12 +49,6 @@ span {
 
 
 
-
-/* canvas {
-  width: 100%;
-} */
-
-
 #bottom-half {
   /*color: rgb(214,188,72);*/
   background: repeating-linear-gradient(
@@ -81,16 +75,12 @@ span {
 
 
 
-#schedule-text {
+#schedule-text, #topics-covered, #link-to-record {
   font-size: 30px;
   font-weight: 700;
 
 }
 
-#link-to-record {
-  font-size: 20px;
-  font-weight: 700;
-}
 
 #heart {
   padding-top: 55px;
@@ -111,11 +101,7 @@ span {
 
 
 #form-start {
-  /*border-radius: 10px;
-  border: 3px solid;*/
   background-color: rgb(197,197,203);
-
-
 }
 
 #form-label {
