@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Coder by Default.</title>
+    <title>Code 216.</title>
 
     <!-- css -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!--add google fonts here-->
     <link href="https://fonts.googleapis.com/css?family=Prociono|Zilla+Slab+Highlight" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--My stylesheet -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!--bulma-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/alertify.min.css"/>
     <!-- Default theme -->
@@ -40,9 +44,7 @@
 
         <!--contact section start-->
         <div id="contact-pill" class="badge badge-pill badge-light">
-
-
-          <span>Project-Based Coding Lessons @ Cleveland UMADAOP</span>
+          <span class="contact-text">Coding Lessons @ Cleveland UMADAOP</span>
           <br>
           <span class="contact-text">Instructor: Alexis Chandler | Contact: alexiscchandler@gmail.com</span>
           <br>
@@ -52,10 +54,7 @@
         </div>
         <!--contact section end--> 
       </a> 
-      <!--<form class="form-inline" id="searchInput">
-<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-</form>-->
+
       <span id="nav2"></span>
     </nav>
     <br>
@@ -69,6 +68,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col" id="blog">
+          
           <div class="list-group">
             <h5 class="mb-1" id="schedule-text">Schedule</h5>
             <br>
@@ -115,15 +115,9 @@
             </a>
           </div>
         </div>
+          
         <br>
         <!-- end of blog div -->
-
-
-        <!-- start color wheel div -->
-        <div class="col">
-          <canvas id="canvas"></canvas>        
-        </div>
-        <!-- end color wheel div -->
 
 
         <!-- start to-do list -->
@@ -131,52 +125,65 @@
           <h1 id="project-list">Class Projects</h1>
           <br>
           <div id="myDIV">
-            <h1>What Are We Building Today? - 5/5/18</h1>
-            <br>
-            <input class="projectInput" type="text" id="myInput" placeholder="Project Description..">
-            <span onclick="newElement()" class="addBtn">Add</span>
+            <h1>What Are We Building Today? <br> 5/19/18</h1>
+
+            <!--<input class="projectInput" type="text" id="myInput" placeholder="Project Description..">
+			<span onclick="newElement()" class="addBtn">Add</span>-->
           </div>
           <ul id="myUL">
-            <li>Github</li>
-            <li>Intro to the command line</li>
-            <li>C# continued...</li>
-            <!--<li class="checked">Daniel - sports recap site</li>
-<li>Sean - weather tracker</li>-->
+            <li>Online Store - Part 2</li>
+            <li>Business Logic in C#</li>
           </ul>
           <br>
+                   
           <h1 id="links">Reference/Links</h1>
+          <br>
           <ul id="links-description">
             <li><a href="https://www.w3schools.com/html/default.asp" title="HTML reference">HTML</a></li>
             <li><a href="https://www.w3schools.com/css/default.asp" title="CSS reference">CSS</a></li>
             <li> <a href="https://thimble.mozilla.org/" title="Create Webpage">Thimble Project</a></li>
             <li><a href="https://color.adobe.com/create/color-wheel/" title="Create colors for your site">Adobe Color Wheel</a></li>
             <li><a href="https://fonts.google.com/" title="Choose creative fonts">Google Fonts</a></li>
-			<li><a href="https://github.com/" title="Version Control">Github</a></li>
-			<li><a href="https://git-scm.com/download/mac" title="Download Git Bash">Git Bash Download</a></li>
-			<li><a href="https://www.visualstudio.com/vs/mac/" title="Download Visual Studio">Visual Studio Download</a></li>
-			
+            <li><a href="https://github.com/" title="Version Control">Github</a></li>
+            <li><a href="https://git-scm.com/download/mac" title="Download Git Bash">Git Bash Download</a></li>
+            <li><a href="https://www.visualstudio.com/vs/mac/" title="Download Visual Studio">Visual Studio Download</a></li>
           </ul>
-          
-          
+ 
         </div>
         <!-- end to-do list -->
       </div>
     </div> 
+  <br>  
+    
+    <!-- start color wheel div -->
+ <div class="row">
+    <div class="col" id="canvas1">
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="col">
+      <p id="link-to-record">Have some fun! Make a video <i class="fas fa-heart"></i></p>
+      <br><br>
+      <a href="record.html"><img src="images/video.png"></a> 
+   </div>
+  </div>
+    <!-- end color wheel div -->
     <br>
-
-    <div id="end-border"></div>
-
+	
+  <div id="bottom-start">
+    <!--<div id="end-border"></div>-->
+    <br>
+  </div>
 
     <div class="container-fluid" id="bottom-half">
       <div class="row">
         <!--form start-->
         <div class="col">
+          <h5 id="contact-me">Contact Me</h5>
           <div id="form-start">
             <form action="https://formspree.io/alexiscchandler@gmail.com" method="POST" id="contact-form">
+              
               <div class="form-group center-block">
-			   <h3>Contact Me</h3>
-                <label id="form-label" for="inputName">
-                  Name</label>
+                <label id="form-label" for="inputName">Name</label>
                 <input type="text" class="form-control contact-input" id="inputName" placeholder="Name" name="name">
               </div>
               <div class="form-group center-block">
@@ -194,25 +201,8 @@
         </div>
         <!--form end--> 
 
-
-       <!-- <div class="col" id="extra-content">
-          <span class="finger"><img src="finger2.png">    Ask me Anything</span>
-          <div id="quote-border"></div>
-          <blockquote class="blockquote text-right">
-            <p id="quote-content">I shall, in due time, be a Poet.</p>
-            <footer class="blockquote-footer">Ada Lovelace</footer>
-          </blockquote>
-          <div id="quote-border"></div>
-        </div>  -->
-        
       </div>
     </div>
-
-
-
-
-
-
 
 
 
@@ -285,68 +275,6 @@
       ctx.closePath();
       ctx.fill();
       /* canvas end */
-
-
-
-
-      /***List actions start
-      // Create a "close" button and append it to each list item
-      var myNodelist = document.getElementsByTagName("LI");
-      var i;
-      for (i = 0; i < myNodelist.length; i++) {
-        var span = document.createElement("SPAN");
-        var txt = document.createTextNode("\u00D7");
-        span.className = "close";
-        span.appendChild(txt);
-        myNodelist[i].appendChild(span);
-      }
-
-      // Click on a close button to hide the current list item
-      var close = document.getElementsByClassName("close");
-      var i;
-      for (i = 0; i < close.length; i++) {
-        close[i].onclick = function() {
-          var div = this.parentElement;
-          div.style.display = "none";
-        }
-      }
-
-      // Add a "checked" symbol when clicking on a list item
-      var list = document.querySelector('ul');
-      list.addEventListener('click', function(ev) {
-        if (ev.target.tagName === 'LI') {
-          ev.target.classList.toggle('checked');
-        }
-      }, false);
-
-      // Create a new list item when clicking on the "Add" button
-      function newElement() {
-        var li = document.createElement("li");
-        var inputValue = document.getElementById("myInput").value;
-        var t = document.createTextNode(inputValue);
-        li.appendChild(t);
-        if (inputValue === '') {
-          alert("You must write something!");
-        } else {
-          document.getElementById("myUL").appendChild(li);
-        }
-        document.getElementById("myInput").value = "";
-
-        var span = document.createElement("SPAN");
-        var txt = document.createTextNode("\u00D7");
-        span.className = "close";
-        span.appendChild(txt);
-        li.appendChild(span);
-
-        for (i = 0; i < close.length; i++) {
-          close[i].onclick = function() {
-            var div = this.parentElement;
-            div.style.display = "none";
-          }
-        }
-      }
-      List actions end***/
-
 
       /* form start */
 
@@ -427,9 +355,6 @@
         }
       };
 
-      // ----------------------------------------
-      // Example
-      // ----------------------------------------
 
       var MAX_PARTICLES = 280;
       var COLOURS = [ '#69D2E7', '#A7DBD8', '#E0E4CC', '#F38630', '#FA6900', '#FF4E50', '#F9D423' ];
@@ -509,9 +434,6 @@
 
 
       /* color particles end */
-
-
-
 
     </script>
 
