@@ -29,7 +29,6 @@ span {
 
 }
 
-
 #title {
   font-family: 'Zilla Slab Highlight', cursive;
   font-size: 40px;
@@ -46,7 +45,6 @@ span {
   }
 
 }
-
 
 
 #bottom-half {
@@ -79,6 +77,10 @@ span {
   font-size: 30px;
   font-weight: 700;
 
+}
+
+#topics-covered {
+  padding-left: 16px;
 }
 
 
@@ -237,5 +239,9 @@ ul li.checked::before {
 .addBtn:hover {
   background-color: #bbb;
 }
-
 /* end list */
+
+#record-header {
+  color: rgb(0,128,138);
+  text-align: center;
+}
