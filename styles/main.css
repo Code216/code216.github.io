@@ -36,6 +36,24 @@ span {
 }
 
 
+/*==========  Mobile Media Query ==========*/
+
+/* Extra Small Devices, Phones */ 
+@media (min-width : 320px) and (max-width : 768px) {
+  
+  canvas {
+    width: 100%;
+  }
+
+}
+
+
+
+
+/* canvas {
+  width: 100%;
+} */
+
 
 #bottom-half {
   /*color: rgb(214,188,72);*/
@@ -49,22 +67,12 @@ span {
 }
 
 .contact-text {
-  /*font-weight: 300;
-  font-size: 20px;*/
   color: black;
   opacity: 0.5;
   /*padding-left: 87px;*/
 }
 
 
-.finger {
-  font-family: 'Zilla Slab Highlight', cursive;
-  font-size: 45px;
-}
-
-#mysite {
-  /*position: absolute;*/
-}
 
 #main-border {
   border-style: dashed;
@@ -79,9 +87,26 @@ span {
 
 }
 
-#end-border{
-  border-style: dashed;
-  opacity: 0.6;
+#link-to-record {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#heart {
+  padding-top: 55px;
+}
+
+#video-image{
+  opacity: .7;
+}
+
+
+#contact-me {
+  background-color: rgb(48,106,69);
+  padding: 30px 0 30px 0;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 
@@ -104,22 +129,10 @@ span {
   /*width: 100%;*/
 }
 
-#quote-content {
-  font-family: 'Prociono', serif;
-  font-size: 3em;
-  font-weight: 300;
-  padding-top: 100px;
-}
-
-#quote-border {
-  border-style: ridge;
-  opacity: 0.6;
-}
 
 #extra-content {
   background-color: white;
 }
-
 
 
 /* start list */
@@ -154,7 +167,7 @@ ul li {
   user-select: none;
 }
 
-/* Set all odd list items to a different color (zebra-stripes) */
+/* Set all odd list items to a different color */
 ul li:nth-child(odd) {
   background: #f9f9f9;
 }
