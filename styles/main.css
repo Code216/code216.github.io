@@ -17,6 +17,9 @@ span {
   max-height: 80px;
 }
 
+#student-name {
+color: gray;
+}
 
 #searchInput {
   /*position: absolute;
