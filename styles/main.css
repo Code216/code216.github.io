@@ -17,6 +17,10 @@ span {
   max-height: 80px;
 }
 
+#carouselExampleControls {
+  max-height: 200px;
+}
+
 #searchInput {
   /*position: absolute;
   right: 0px;*/
@@ -124,7 +128,7 @@ span {
 
 
 /* start list */
-#project-list, #links {
+#project-list, #links, #artwork {
   font-size: 30px;
   font-weight: 700;
 }
