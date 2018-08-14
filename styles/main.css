@@ -17,9 +17,6 @@ span {
   max-height: 80px;
 }
 
-#student-name {
-color: gray;
-}
 
 #searchInput {
   /*position: absolute;
@@ -87,6 +84,9 @@ color: gray;
   padding-left: 16px;
 }
 
+#student-name {
+background-color: gray;
+}
 
 #heart {
   padding-top: 55px;
