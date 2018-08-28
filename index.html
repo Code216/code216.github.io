@@ -52,7 +52,7 @@
     <script src="https://rawgithub.com/soulwire/sketch.js/master/js/sketch.min.js"></script>
 
   </head>
-  <body id="nav2">
+  <body>
     <!-- navigation bar start -->
     <nav class="navbar navbar-light bg-light justify-content-between" id="navbar">
       <a class="navbar-brand" id="title">
@@ -61,7 +61,7 @@
     </nav>
     <br><br><br>
     <!-- navigation bar end -->
-
+    <div id="bubbles"></div>
 	<!--------Need to find somewhere else to put this - maybe add About Me page??-----------------
 	<div class="row">
 	  <div class="row">
@@ -89,30 +89,6 @@
 				More Practice with Loops
               </p>
             </a>
-	        <!--<a class="list-group-item list-group-item-action flex-column align-items-start" href="https://docs.google.com/document/d/1lXAYnVKNQoRzTZb5u1lesFLPqL36eSFXyw0yfGeXDYs/edit?usp=sharing" target="_blank"              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1"><b>Wednesday August 22th</b></h5><br>
-              </div>
-              <p class="mb-1">
-			  Nested Loops in Maze <br>
-			  Fancy Shapes using Nested Loops
-              </p>
-            </a>
-            <a class="list-group-item list-group-item-action flex-column align-items-start" href="https://docs.google.com/document/d/1vU95sB5W0V1b72Zkasu-OEPcXnfbHVkf1E3MZeKltaE/edit?usp=sharing" target="_blank">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1"><b>Thursday August 23th</b></h5><br>
-              </div>
-              <p class="mb-1">
-			  Snowflakes with Anna and Elsa
-			  </p>
-            </a>-->
-            <!--<a class="list-group-item list-group-item-action flex-column align-items-start" href="https://docs.google.com/document/d/16tYcH7z-QOCRyQroc2sYwalTthWe_He1jeM-8sq-6a8/edit?usp=sharing" target="_blank">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1"><b>Friday July 27th</b></h5><br>
-              </div>
-              <p class="mb-1">
-			  While Loops in Farmer
-			  </p>
-            </a>-->
           </div>
         </div>
         <br>
@@ -489,7 +465,7 @@
       var pool = [];
 
       var demo = Sketch.create({
-        container: document.getElementById( 'nav2' )
+        container: document.getElementById( 'bubbles' )
       });
 
       demo.setup = function() {

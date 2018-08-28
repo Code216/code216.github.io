@@ -17,6 +17,10 @@ span {
   max-height: 80px;
 }
 
+#bubbles {
+	max-height:50px;
+	max-width: 100%;
+}
 
 #searchInput {
   /*position: absolute;
