@@ -58,6 +58,11 @@ span {
   #title-definition {
     font-size: 25px;
   }
+
+  #slides {
+    height: 50%;
+    width: 50%;
+   }
 }
 
 /* Medium Devices, tablets */
