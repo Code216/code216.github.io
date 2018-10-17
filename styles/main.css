@@ -316,9 +316,9 @@ ul li.checked::before {
 }
 
 #slides {
-  height: 735px;
+ /* height: 735px; */
   max-height: 735px;
-  width: 1102px;
+ /* width: 1102px; */
   max-width: 1102px;
 }
 
