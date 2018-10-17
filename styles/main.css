@@ -42,7 +42,7 @@ span {
 
 #title-definition {
   font-family: 'Mali', cursive;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 
@@ -55,9 +55,9 @@ span {
     width: 100%;
   }
 	
-  #title-definition {
+/*  #title-definition {
     font-size: 25px;
-  }
+  } */
 
   #slides {
     height: 50%;
@@ -68,9 +68,9 @@ span {
 /* Medium Devices, tablets */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
-  #title-definition {
-    font-size: 30px;
-  }
+ /* #title-definition {
+    font-size: 25px;
+  } */
 	
   #slides {
     height: 100%;
@@ -96,11 +96,11 @@ span {
     width: 1600px;
   }
 }
-/*@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1900px) {
   nav {
     width: 1900px;
   }
-} */
+} 
 
 #bottom-half {
   /*color: rgb(214,188,72);*/
