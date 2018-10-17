@@ -55,9 +55,9 @@ span {
     width: 100%;
   }
 	
-/*  #title-definition {
-    font-size: 25px;
-  } */
+  #title-definition {
+    font-size: 10px;
+  } 
 
   #slides {
     height: 50%;
