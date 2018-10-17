@@ -38,7 +38,6 @@ span {
 #main-logo {
   height: 200px;
   width: 220px;
-  padding-right: 40px;
 }
 
 #title {
@@ -49,7 +48,6 @@ span {
 #title-definition {
   font-family: 'Mali', cursive;
   font-size: 25px;
-   padding-left: 10px;
 }
 
 #slides {
