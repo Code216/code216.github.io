@@ -100,9 +100,9 @@ span {
 } */
 	
 }
-/*==========  Desktop Media Query ==========*/
 
-/* Large Desktops */  
+/*==========  Desktop Media Query 
+ 
 @media screen and (min-width: 1400px) {
   nav {
     width: 1400px;
@@ -122,7 +122,7 @@ span {
   nav {
     width: 1900px;
   }
-} 
+} ==========*/
 
 #bottom-half {
   /*color: rgb(214,188,72);*/
