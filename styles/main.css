@@ -35,6 +35,11 @@ span {
 
 }
 
+#main-logo {
+  height: 5rem;
+  width: 5rem;
+}
+
 #title {
   font-family: 'Zilla Slab Highlight', cursive;
   font-size: 40px;
@@ -77,6 +82,11 @@ span {
     height: 50%;
     width: 50%;
    }
+
+  #main-logo {
+    height: 3rem;
+    width: 3rem;
+  }
 }
 
 @media (min-width : 380px) and (max-width : 568px) {
@@ -87,8 +97,7 @@ span {
 	
 }
 
-/* Medium Devices, tablets */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media (min-width : 768px) and (max-width : 1024px) {
 
  /* #title-definition {
     font-size: 25px;
