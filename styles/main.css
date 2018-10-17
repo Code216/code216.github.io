@@ -42,7 +42,7 @@ span {
 
 #title {
   font-family: 'Zilla Slab Highlight', cursive;
-  font-size: 40px;
+ /* font-size: 40px; */
 }
 
 #title-definition {
