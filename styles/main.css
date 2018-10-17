@@ -54,6 +54,10 @@ span {
   canvas {
     width: 100%;
   }
+	
+  #title-definition {
+    font: 10px;
+  }
 
 }
 
