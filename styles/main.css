@@ -38,6 +38,7 @@ span {
 #main-logo {
   height: 200px;
   width: 220px;
+  padding-left: 2px;
 }
 
 #title {
