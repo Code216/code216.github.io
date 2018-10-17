@@ -317,3 +317,7 @@ ul li.checked::before {
   width: 1102px;
   max-width: 1102px;
 }
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
