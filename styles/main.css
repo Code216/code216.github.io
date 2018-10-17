@@ -82,11 +82,6 @@ span {
     height: 50%;
     width: 50%;
    }
-
-  #main-logo {
-    height: 3rem;
-    width: 3rem;
-  }
 }
 
 @media (min-width : 380px) and (max-width : 568px) {
