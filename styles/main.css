@@ -55,14 +55,18 @@ span {
     width: 100%;
   }
 	
-  #title-definition {
-    font-size: 25px;
-  } 
-
   #slides {
     height: 50%;
     width: 50%;
    }
+}
+
+@media (min-width : 320px) and (max-width : 568px) {
+	
+  #title-definition {
+    font-size: 15px;
+  } 
+	
 }
 
 /* Medium Devices, tablets */
