@@ -1,6 +1,7 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Mali');
 
 body {
   background-color: rgba(214,188,72,0.7);
@@ -36,6 +37,11 @@ span {
 
 #title {
   font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 40px;
+}
+
+#title-definition {
+  font-family: 'Mali', cursive;
   font-size: 40px;
 }
 
@@ -258,4 +264,11 @@ ul li.checked::before {
 #record-header {
   color: rgb(0,128,138);
   text-align: center;
+}
+
+#slides {
+  height: 735px;
+  max-height: 735px;
+  width: 1102px;
+  max-width: 1102px;
 }
