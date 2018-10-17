@@ -45,6 +45,16 @@ span {
   font-size: 25px;
 }
 
+#slides {
+  height: 735px; 
+  max-height: 735px;
+/*  width: 1102px; 
+  max-width: 1102px; */
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
 
 /*==========  Mobile Media Query ==========*/
 
@@ -84,10 +94,10 @@ span {
     font-size: 25px;
   } */
 	
-  #slides {
+/*  #slides {
     height: 100%;
     width: 100%;
-}
+} */
 	
 }
 /*==========  Desktop Media Query ==========*/
@@ -323,13 +333,4 @@ ul li.checked::before {
   text-align: center;
 }
 
-#slides {
- /* height: 735px; */
-  max-height: 735px;
- /* width: 1102px; */
-  max-width: 1102px;
-}
 
-.carousel-inner > .item > img {
-    margin: 0 auto;
-}
