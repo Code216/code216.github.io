@@ -57,6 +57,24 @@ span {
 
 }
 
+/*==========  Desktop Media Query ==========*/
+
+/* Large Desktops */  
+@media screen and (min-width: 1400px) {
+  nav {
+    width: 1370px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  nav {
+    width: 1570px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  nav {
+    width: 1870px;
+  }
+}
 
 #bottom-half {
   /*color: rgb(214,188,72);*/
