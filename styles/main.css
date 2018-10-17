@@ -56,7 +56,7 @@ span {
   }
 	
   #title-definition {
-    font: 10px;
+    font-size: 10px;
   }
 
 }
@@ -67,6 +67,11 @@ span {
 @media screen and (min-width: 1400px) {
   nav {
     width: 1400px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  nav {
+    width: 1500px;
   }
 }
 @media screen and (min-width: 1600px) {
