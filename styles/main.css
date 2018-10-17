@@ -49,6 +49,14 @@ span {
 /*==========  Mobile Media Query ==========*/
 
 /* Extra Small Devices, Phones */ 
+@media (min-width : 150px) and (max-width : 380px) {
+	
+  #title-definition {
+    font-size: 8px;
+  } 
+	
+}
+
 @media (min-width : 320px) and (max-width : 768px) {
   
   canvas {
@@ -61,7 +69,7 @@ span {
    }
 }
 
-@media (min-width : 320px) and (max-width : 568px) {
+@media (min-width : 380px) and (max-width : 568px) {
 	
   #title-definition {
     font-size: 15px;
