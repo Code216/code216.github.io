@@ -74,9 +74,9 @@ img,
   /*color: rgb(214,188,72);*/
   background: repeating-linear-gradient(
     /*45deg,*/
-   /* rgb(188,214,72), */
+    rgb(188,214,72), 
     /*rgb(81,79,255) 10px,*/
-    rgb (255,205,156),
+   /* rgb (255,205,156), */
     rgb(197,197,203) 10px,
     rgb(197,197,203) 20px
   );
