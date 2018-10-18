@@ -62,12 +62,12 @@ body {
 @media (min-width : 150px) and (max-width : 380px) {
 	
   #title-definition {
-    font-size: 15px;
+    font-size: 10px;
   } 
 
   .main-logo {
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
   }
 	
 }
