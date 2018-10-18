@@ -66,8 +66,8 @@ body {
   } 
 
   .main-logo {
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
   }
 }
 
@@ -123,28 +123,6 @@ body {
   }
 }
 
-/*==========  Desktop Media Query 
- 
-@media screen and (min-width: 1400px) {
-  nav {
-    width: 1400px;
-  }
-}
-@media screen and (min-width: 1500px) {
-  nav {
-    width: 1500px;
-  }
-}
-@media screen and (min-width: 1600px) {
-  nav {
-    width: 1600px;
-  }
-}
-@media screen and (min-width: 1900px) {
-  nav {
-    width: 1900px;
-  }
-} ==========*/
 
 #bottom-half {
   /*color: rgb(214,188,72);*/
