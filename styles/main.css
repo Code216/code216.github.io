@@ -309,7 +309,7 @@ ul li.checked::before {
 
 
 /* All Screens ----------- */
-@media (min-width : 150px) and (max-width: 1824px) {
+@media (min-width : 150px) and (max-width: 2000px) {
 	
  .main-logo {
     height: 250px;
