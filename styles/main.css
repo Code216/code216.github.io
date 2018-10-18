@@ -121,7 +121,8 @@ padding: 50px;
 
 
 #contact-me {
-  background-color: rgb(48,106,69);
+ /* background-color: rgb(48,106,69); */
+  background-color: rgb(26,72,249,0.6);
   padding: 30px 0 30px 0;
   color: white;
   font-size: 30px;
