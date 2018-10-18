@@ -235,7 +235,7 @@ ul li.checked::before {
 /* Style the header */
 #myDIV {
  /* background-color: rgb(48,106,69); */
-  background-color: rgb(26,72,249,0.4);
+  background-color: rgb(26,72,249);
   padding: 30px 40px;
   color: white;
   text-align: center;
