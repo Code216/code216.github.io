@@ -68,77 +68,6 @@ img,
   -o-transition: .7s all;
 }
 
-/*==========  Mobile Media Query ==========*/
-
-/* Smartphones (portrait and landscape) ----------- */ 
-@media (min-width : 150px) and (max-width : 380px) {
-	
-  #title-definition {
-    font-size: 10px;
-  } 
-
-  .main-logo {
-    height: 150px;
-    width: 150px;
-  }
-}
-
-/* Smartphones (portrait and landscape) ----------- */ 
-@media (min-width : 320px) and (max-width : 768px) {
-  
-  canvas {
-    width: 100%;
-  }
-	
-  #slides {
-    height: 50%;
-    width: 50%;
-   }
-
-  .main-logo {
-    height: 150px;
-    width: 150px;
-  }
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media (min-width : 380px) and (max-width : 568px) {
-	
-  #title-definition {
-    font-size: 15px;
-  } 
-	
-  .main-logo {
-    height: 200px;
-    width: 200px;
-  }
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media (min-width : 768px) and (max-width : 1024px) {
-
-  .main-logo {
-     height: 250px;
-     width: 250px;
-  }
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
-	
- .main-logo {
-    height: 250px;
-    width: 250px;
-  }
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
-  .main-logo {
-    height: 250px;
-    width: 250px;
-  }
-}
 
 
 #bottom-half {
@@ -350,4 +279,40 @@ ul li.checked::before {
   text-align: center;
 }
 
+/*==========  Media Queries ==========*/
 
+/* Smartphones (portrait and landscape) ----------- */ 
+@media (min-width : 320px) and (max-width : 768px) {
+  
+  canvas {
+    width: 100%;
+  }
+	
+  #slides {
+    height: 50%;
+    width: 50%;
+   }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width : 380px) and (max-width : 568px) {
+	
+  #title-definition {
+    font-size: 15px;
+  } 
+	
+  .main-logo {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+
+/* All Screens ----------- */
+@media (min-width : 150px) and (max-width: 1824px) {
+	
+ .main-logo {
+    height: 250px;
+    width: 250px;
+  }
+}
