@@ -91,16 +91,16 @@ body {
   } 
 	
   .main-logo {
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
   }
 }
 
 @media (min-width : 768px) and (max-width : 1024px) {
 
 .main-logo {
-    height: 50px;
-    width: 50px;
+    height: 250px;
+    width: 250px;
   }
  /* #title-definition {
     font-size: 25px;
