@@ -66,8 +66,8 @@ body {
   } 
 
   .main-logo {
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
   }
 	
 }
@@ -91,16 +91,16 @@ body {
   } 
 	
   .main-logo {
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
   }
 }
 
 @media (min-width : 768px) and (max-width : 1024px) {
 
 .main-logo {
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
   }
  /* #title-definition {
     font-size: 25px;
