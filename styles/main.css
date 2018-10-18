@@ -14,9 +14,9 @@ body {
   font-family: 'Prociono', serif;  
 } */
 
-/*#navbar {
-  max-height: 80px;
-}*/
+#navbar {
+  max-height: 300px;
+}
 
 #bubbles {
 	max-height:50px;
