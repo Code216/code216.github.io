@@ -56,6 +56,18 @@ body {
     margin: 0 auto;
 }
 
+/* Transitions */
+
+nav,
+a,
+img,
+{
+  transition: .7s all;
+  -moz-transition: .7s all;
+  -webkit-transition: .7s all;
+  -o-transition: .7s all;
+}
+
 /*==========  Mobile Media Query ==========*/
 
 /* Smartphones (portrait and landscape) ----------- */ 
@@ -82,6 +94,11 @@ body {
     height: 50%;
     width: 50%;
    }
+
+  .main-logo {
+    height: 150px;
+    width: 150px;
+  }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
