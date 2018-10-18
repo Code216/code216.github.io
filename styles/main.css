@@ -10,9 +10,9 @@ body {
 
 }
 
-span {
+/*span {
   font-family: 'Prociono', serif;  
-}
+} */
 
 /*#navbar {
   max-height: 80px;
@@ -35,15 +35,10 @@ span {
 
 }
 
-#main-logo {
-  height: 200px;
-  width: 220px;
-}
-
-#title {
+/* #title {
   font-family: 'Zilla Slab Highlight', cursive;
- /* font-size: 40px; */
-}
+  font-size: 40px; 
+} */
 
 #title-definition {
   font-family: 'Mali', cursive;
@@ -70,7 +65,7 @@ span {
     font-size: 15px;
   } 
 
-  #main-logo {
+  .main-logo {
     height: 50px;
     width: 50px;
   }
@@ -95,7 +90,7 @@ span {
     font-size: 15px;
   } 
 	
-  #main-logo {
+  .main-logo {
     height: 100px;
     width: 100px;
   }
