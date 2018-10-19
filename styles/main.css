@@ -298,8 +298,8 @@ ul li.checked::before {
   } 
 	
   .main-logo {
-    height: 200px;
-    width: 200px;
+    height: 30px;
+    width: 48px;
   }
 }
 
@@ -308,7 +308,7 @@ ul li.checked::before {
 @media (min-width : 150px) and (max-width: 2000px) {
 	
  .main-logo {
-    height: 250px;
-    width: 250px;
+    height: 30px;
+    width: 48px;
   }
 }
