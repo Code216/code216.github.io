@@ -69,7 +69,6 @@ img,
 }
 
 
-
 /* #bottom-half {
   background: repeating-linear-gradient(
    rgb(188,214,72),
@@ -84,13 +83,15 @@ img,
   /*padding-left: 87px;*/
 }
 
+footer {
+  background-color: white;
+}
 
 
 #main-border {
   border-style: dashed;
   opacity: 0.6;
 }
-
 
 
 #schedule-text, #topics-covered, #link-to-record {
