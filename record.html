@@ -10,6 +10,8 @@
   <head>
 
     <meta charset="utf-8">
+    <meta name="keywords" content="code,216,cleveland,education,html,javascript,c#,coding,unity,sql,software,development,alexis,chandler,
+				   WebRTC,video,download,record ">
     <meta name="description" content="WebRTC code samples">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
     <meta itemprop="description" content="Client-side WebRTC code samples">
@@ -20,9 +22,9 @@
 
     <base target="_blank">
 
-    <title>MediaStream Recording</title>
+    <title>MediaStream Recording - Code 216</title>
 	
-	<!--my icon-->
+    <!-- previous icon
     <link rel="apple-touch-icon" sizes="57x57" href="images/icon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/icon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/icon/apple-icon-72x72.png">
@@ -36,6 +38,23 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="images/icon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+    ---------------------------------------------------------------------------------------------->
+	  
+    <!-- current icon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/logocontest/logo4.jpg">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/logocontest/logo4.jpg">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/logocontest/logo4.jpg">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/logocontest/logo4.jpg">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/logocontest/logo4.jpg">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/logocontest/logo4.jpg">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/logocontest/logo4.jpg">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/logocontest/logo4.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logocontest/logo4.jpg">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/logocontest/logo4.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logocontest/logo4.jpg">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/logocontest/logo4.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logocontest/logo4.jpg">
+	  
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="images/icon/ms-icon-144x144.png">
@@ -49,8 +68,8 @@
 
   <body>
     <h1 id="record-header">Have some fun and record a video!</h1>
-	<br />
-	<center>** Only available on desktop with camera**</center>
+    <br />
+    <center>** Only Available on Devices with Camera**</center>
     <div id="container">
       <video id="gum" autoplay muted></video>
       <video id="recorded" loop controls></video>
@@ -68,11 +87,12 @@
     </div>
 
     <!-- include adapter for srcObject shim -->
-   <!-- Latest adapter build is failing as of 5/13/18- acc -
-<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script> -->
+    <!-- Latest adapter build is failing as of 5/13/18- acc -
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script> -->
+	  
     <script src="https://webrtc.github.io/adapter/adapter-6.0.0.js"></script>
     <script src="js/videopipe.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/webrtc.js"></script>
 
 
   </body>
