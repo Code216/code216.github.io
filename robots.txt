@@ -1,0 +1,6 @@
+# robots.txt for https://code216.github.io/
+
+User-agent: *
+Disallow:
+
+Sitemap: https://code216.github.io/sitemap.xml
