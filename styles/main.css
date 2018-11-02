@@ -297,10 +297,6 @@ ul li.checked::before {
     font-size: 15px;
   } 
 	
-  .main-logo {
-    height: 30px;
-    width: 48px;
-  }
 }
 
 
@@ -308,7 +304,7 @@ ul li.checked::before {
 @media (min-width : 150px) and (max-width: 2000px) {
 	
  .main-logo {
-    height: 30px;
-    width: 48px;
+    height: 80px;
+    width: 80px;
   }
 }
