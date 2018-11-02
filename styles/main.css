@@ -304,7 +304,7 @@ ul li.checked::before {
 @media (min-width : 150px) and (max-width: 2000px) {
 	
  .main-logo {
-    height: 35px;
-    width: 35px;
+    height: 80px;
+    width: 80px;
   }
 }
